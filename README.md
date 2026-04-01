@@ -72,7 +72,7 @@ pip install matplotlib
 ```
 2. Run the program:
 ```bash
-python myszkowski_cipher.py
+python cia.py
 ```
 3. Choose the following in the program:
 ```
