@@ -59,6 +59,13 @@ This project introduces a custom hash function based on a deterministic random w
 
 ---
 
+## Time Complexity
+
+- Encryption: O(n)
+- Decryption: O(n)
+- Hash Computation: O(n)
+
+---
 ## Limitations
 - Not cryptographically secure (for academic use only)
 - Padding uses 'X', which may cause ambiguity
