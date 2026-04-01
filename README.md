@@ -1,4 +1,3 @@
-# Myszkowski-cipher-cia
 #  Myszkowski Cipher with Dice Random Walk Hash
 
 This project implements:
@@ -53,3 +52,11 @@ This project introduces a custom hash function based on a deterministic random w
 1. Install matplotlib (if not installed):
 ```bash
 pip install matplotlib
+```
+2. Run the program:
+```bash
+python myszkowski_cipher.py
+```
+3. Choose the following in the program:
+```
+3 → Full Analysis
