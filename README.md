@@ -46,6 +46,40 @@ This project introduces a custom hash function based on a deterministic random w
 - Path sum
 
 ---
+## Worked Examples
+
+### Example 1
+
+**Plaintext:**  THIS IS A SECRET MESSAGE  
+
+**Key:**  KEYWORD  
+
+**Processed Plaintext (no spaces, uppercase):**  THISISASECRETMESSAGE  
+
+**Ciphertext:**  AMXHESTSEIEGSTESRAICS
+
+**Dice Hash Output:**  812
+
+**Decrypted Text:**  THISISASECRETMESSAGE  
+
+---
+
+### ✅ Example 2
+
+**Plaintext:** The dice-based random walk provides a larger state space and introduces spatial non-linearity through 2D movement
+
+**Key:** NOTE  
+
+**Processed Plaintext:** THEDICE-BASEDRANDOMWALKPROVIDESALARGERSTATESPACEANDINTRODUCESSPATIALNON-LINEARITYTHROUGH2DMOVEMENT 
+
+**Ciphertext:** D-ENWPIAGTSEIOEAL-ETRHOEXTIBDDARDLEAPANDSTNLAYO2VNHCAROLOEARTANTUSIOIRTUDETEESAMKVSRSECDRCPANNIHGMMX
+
+**Dice Hash Output:** 10070
+
+**Decrypted Text:** THEDICE-BASEDRANDOMWALKPROVIDESALARGERSTATESPACEANDINTRODUCESSPATIALNON-LINEARITYTHROUGH2DMOVEMENT
+
+---
+
 ## Limitations
 - Not cryptographically secure (for academic use only)
 - Padding uses 'X', which may cause ambiguity
