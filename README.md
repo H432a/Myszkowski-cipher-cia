@@ -36,14 +36,11 @@ This project introduces a custom hash function based on a deterministic random w
 | 4 | Left (-1, 0) |
 | 5 | Diagonal ↗ (+1, +1) |
 | 6 | Diagonal ↙ (-1, -1) |
-
-3. A 2D walk is simulated:
+### Hash Computation
 - Track position (x, y)
-- Accumulate path complexity
-
-4. Final hash is computed using:
-- Final position
-- Path sum
+- Accumulate path complexity:
+  x² + y² + index
+- Final hash: hash = (x * 31 + y * 37 + path_sum) mod (10^9 + 7)
 
 ---
 ## Worked Examples
