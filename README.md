@@ -7,9 +7,9 @@ This project implements:
 
 ---
 
-# Theory
+## Theory
 
-# Myszkowski Cipher
+### Myszkowski Cipher
 Myszkowski Cipher is a columnar transposition cipher where:
 - The plaintext is written row-wise into a matrix
 - Columns are read based on alphabetical order of key characters
@@ -19,7 +19,7 @@ This makes it different from standard columnar transposition.
 
 ---
 
-# Dice Random Walk Hash
+### Dice Random Walk Hash
 
 This project introduces a custom hash function based on a deterministic random walk.
 
@@ -46,12 +46,12 @@ This project introduces a custom hash function based on a deterministic random w
 - Path sum
 
 ---
-# Limitations
+## Limitations
 - Not cryptographically secure (for academic use only)
 - Padding uses 'X', which may cause ambiguity
 - Limited movement directions may cause collisions
 
-#  How to Run
+##  How to Run
 
 1. Install matplotlib (if not installed):
 ```bash
@@ -64,3 +64,4 @@ python myszkowski_cipher.py
 3. Choose the following in the program:
 ```
 3 → Full Analysis
+```
